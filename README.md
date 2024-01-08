@@ -6,7 +6,10 @@
 - Aitor Javier Santaeugenia Marí
 - En aquesta PAC hem realitzat diversos exercicis;
     - Els <ins>**exercicis** **1** i **3**</ins> són preguntes teòriques.
+        - Preguntes exercici 1: https://github.com/AitorSantaeugenia/PEC6_DFFJ/blob/main/PEC6_Ej_Teor/PEC6_Ej1_respuestas_teoria.md
+        - Preguntes exercici 3: https://github.com/AitorSantaeugenia/PEC6_DFFJ/blob/main/PEC6_Ej_Teor/PEC6_Ej3_respuestas_teoria.md
     - L'<ins>**exercici 2**</ins> s'ha de crear un servei i conté un parell de preguntes teòriques.
+        - Preguntes exercici 2: https://github.com/AitorSantaeugenia/PEC6_DFFJ/blob/main/PEC6_Ej_Teor/PEC6_Ej2_respuestas_teoria.md
     - A l'<ins>**exercici 4**</ins> cal emprar un servidor. En aquest hi ha que obtenir els articles des de <ins>/api/articles</ins>, fer un *patch* per augmentar o disminuir la quantitat de l'article al carret i crear un nou article emprant el servidor.
     <br> Al mateix temps, cal crear un filtratge per nom.
 
