@@ -24,6 +24,6 @@ export class ArticleServiceService {
   }
 
     createArticle(article: Article): Observable<any> {
-      return this.http.post('/api/articles', article);
+      return this.http.post<Article>(this.apiUrl, article);
   }
 }

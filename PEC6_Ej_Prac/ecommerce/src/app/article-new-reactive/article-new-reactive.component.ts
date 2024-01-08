@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Article } from './../article-item/model/article';
 import { FormBuilder, FormGroup, Validators  } from '@angular/forms';
 import { ValidatorFn, AbstractControl, ValidationErrors } from '@angular/forms';
+import { ArticleServiceService } from './../article-service.service';
 
 @Component({
   selector: 'app-article-new-reactive',
@@ -15,7 +16,7 @@ export class ArticleNewReactiveComponent {
 
   public formArticle!: FormGroup;
 
-  constructor(private fb:FormBuilder) {  
+  constructor(private fb:FormBuilder, private articleService: ArticleServiceService) {  
     this.createForm();
   }
 
@@ -44,16 +45,23 @@ export class ArticleNewReactiveComponent {
     }
   }
 
-  crearArticulo(){
+  crearArticulo() {
     if (this.formArticle.invalid) {
-      this.submitedForm = true; 
+      this.submitedForm = true;
     } else {
-          this.newArticle = this.formArticle.value;
-          console.log('Artículo creado', this.newArticle);
+      const newArticle: Article = this.formArticle.value;
+      this.articleService.createArticle(newArticle).subscribe(
+        createdArticle => {
+          console.log('Artículo creado:', createdArticle);
+          this.newArticle = createdArticle;
+        },
+        error => {
+          console.error('Error al crear el artículo:', error);
+        }
+      );
     }
   }
 }
-
 
 
   
