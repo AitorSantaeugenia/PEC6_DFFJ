@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Article } from '../model/article.model';
+import { Article } from './../article-item/model/article';
 import { NgForm } from '@angular/forms';
 
 @Component({

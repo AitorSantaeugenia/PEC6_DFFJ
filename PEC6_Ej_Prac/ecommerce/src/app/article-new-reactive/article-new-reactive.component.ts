@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Article } from '../model/article.model';
+import { Article } from './../article-item/model/article';
 import { FormBuilder, FormGroup, Validators  } from '@angular/forms';
 import { ValidatorFn, AbstractControl, ValidationErrors } from '@angular/forms';
 

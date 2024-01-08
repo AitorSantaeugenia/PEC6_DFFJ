@@ -12,6 +12,10 @@ import { ArticleNewReactiveComponent } from './article-new-reactive/article-new-
 //Importem el servei
 import { ArticleServiceService } from './article-service.service';
 
+//HTTPCLIENTMODULE
+import { HttpClientModule } from '@angular/common/http';
+import { ArticleListComponent } from './article-list/article-list.component';
+
 
 @NgModule({
   declarations: [
@@ -20,12 +24,14 @@ import { ArticleServiceService } from './article-service.service';
     NavbarComponent,
     ArticleNewTemplateComponent,
     ArticleNewReactiveComponent,
+    ArticleListComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule,               
+    ReactiveFormsModule, 
+    HttpClientModule                                                       
   ],
   providers: [ArticleServiceService],
   bootstrap: [AppComponent]
