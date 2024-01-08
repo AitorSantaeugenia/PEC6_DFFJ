@@ -3,12 +3,12 @@
         <h2>Out of stock</h2>
     </div>
     <div class="article-item-image">
-        <img src="{{article.imageUrl}}" alt="{{article.name}}" />
+        <img [src]="article.imageUrl | defaultImage" alt="{{article.name}}" />
     </div>
     <div class="article-item-info">
         <figcaption>
             <h2>{{article.name}}</h2>
-            <p [ngClass]="{'OnSaleText': article.isOnSale == true, 'NotOnSaleText': article.isOnSale == false}">{{article.price}} €</p>
+            <p [ngClass]="{'OnSaleText': article.isOnSale == true, 'NotOnSaleText': article.isOnSale == false}">{{article.price | currency:'EUR':'symbol':'1.2-2' }}</p>
             <p *ngIf="article.isOnSale == false" [ngClass]="{'NotOnSaleText': article.isOnSale == false}">En stock 0 unitats</p>
             <div class="article-item-info-counter" *ngIf="article.isOnSale == true">
                 <button class="increment" (click)="incrementInCart()">+</button>      

@@ -16,6 +16,9 @@ import { ArticleServiceService } from './article-service.service';
 import { HttpClientModule } from '@angular/common/http';
 import { ArticleListComponent } from './article-list/article-list.component';
 
+//Pipe imagen por defecto
+import { DefaultImagePipe } from './pipes/default-image.pipe';
+
 
 @NgModule({
   declarations: [
@@ -25,6 +28,7 @@ import { ArticleListComponent } from './article-list/article-list.component';
     ArticleNewTemplateComponent,
     ArticleNewReactiveComponent,
     ArticleListComponent,
+    DefaultImagePipe
   ],
   imports: [
     BrowserModule,
