@@ -17,9 +17,21 @@
 <div  style="width:300px">
 
  ![all_test_done](https://private-user-images.githubusercontent.com/14861253/294830904-02664cc9-4522-4e14-87d0-b2c26a6e945e.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ2OTgwNDYsIm5iZiI6MTcwNDY5Nzc0NiwicGF0aCI6Ii8xNDg2MTI1My8yOTQ4MzA5MDQtMDI2NjRjYzktNDUyMi00ZTE0LTg3ZDAtYjJjMjZhNmU5NDVlLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA4VDA3MDkwNlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWEzMTVlMTk1YTA5MzVlMjI3MDExNjI0YzU1MTI0MzlmMWUwZGUwYWEwODY2YTQ0Yzk2ODFkNzgzZWRiZGFkZDgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.Qg17uex6_h2j4PjdYEkxWoCSdmBFjL7f8MdiMBJDR4E)
+ 
+ <span style="font-size:10px; color:grey">El ChangeDetection no funciona, hi ha de fer *refresh()* a la pàgina per veure els canvis.</span>
 
 </div>
-        - El ChangeDetection no funciona, hi ha de fer refresh() a la pàgina per veure els canvis.
+        
+
+<div>
+
+ ![all_test_done](https://private-user-images.githubusercontent.com/14861253/294837652-62d53f37-0048-4de1-9b5a-3eb41e260f6a.gif?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDQ3MDAzOTksIm5iZiI6MTcwNDcwMDA5OSwicGF0aCI6Ii8xNDg2MTI1My8yOTQ4Mzc2NTItNjJkNTNmMzctMDA0OC00ZGUxLTliNWEtM2ViNDFlMjYwZjZhLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAxMDglMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMTA4VDA3NDgxOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTdjNTg1OGMwOTZkMTEyNjgzZGIxMDQyOGM2YTI3NjdlNmMxNDlmYWY2YjAzZjliZGEyODRhZTQzYjdlMzQzZGYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.bLuAJuommwLI9zGOOmXCZI-r2iizd5lxDDLLM4PEcTY)
+
+ <span style="font-size:10px; color:grey">Creant un article *headphones*.</span>
+
 </div>
+</div>
+
+-------------
 
 Podem anar al repositori en el següent [enllaç](https://github.com/AitorSantaeugenia/PEC6_DFFJ).
