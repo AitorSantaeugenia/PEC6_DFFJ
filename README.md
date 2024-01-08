@@ -7,4 +7,4 @@
 - En aquesta PAC hem realitzat diversos exercicis;
 
 
-Podem anar al repositori en el següent [enllaç](https://github.com/AitorSantaeugenia/PAC5_DFFJ).
+Podem anar al repositori en el següent [enllaç](https://github.com/AitorSantaeugenia/PEC6_DFFJ).
