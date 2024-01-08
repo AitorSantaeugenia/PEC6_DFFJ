@@ -5,10 +5,10 @@
 - asantaeugenia@uoc.edu
 - Aitor Javier Santaeugenia Marí
 - En aquesta PAC hem realitzat diversos exercicis;
-    - Los <ins>**ejercicios** **1** y **3**</ins> son preguntas teóricas.
-    - El <ins>**ejercicio 2**</ins> trata de la creación de un servicio, y contiene un par de preguntas teóricas.
-    - En el <ins>**ejercicio 4**</ins> hay que utilizar el servidor. Dónde habrá que obtener los artículos desde /api/articles, hacer un patch de la cantidad en carrito de los artículos y crear un nuevo artículo.
-    <br>Al mismo tiempo también tendremos que crear un filtro por nombre.
+    - Els <ins>**exercicis** **1** i **3**</ins> són preguntes teòriques.
+    - L'<ins>**exercici 2**</ins> s'ha de crear un servei i conté un parell de preguntes teòriques.
+    - A l'<ins>**exercici 4**</ins> cal emprar un servidor. En aquest hi ha que obtenir els articles des de <ins>/api/articles</ins>, fer un *patch* per augmentar o disminuir la quantitat de l'article al carret i crear un nou article emprant el servidor.
+    <br> Al mateix temps, cal crear un filtratge per nom.
 
 <div align="center">
 <div  style="width:300px">
